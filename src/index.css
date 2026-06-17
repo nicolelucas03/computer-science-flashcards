@@ -1,0 +1,47 @@
+.Card {
+  width: 500px;
+  height: 250px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+
+  cursor: pointer;
+  background-color: #f8f8f8;
+
+  transition: transform 0.2s ease;
+}
+
+.Card.question {
+  background-color: #dbeafe;
+}
+
+.Card.answer {
+  background-color: #dcfce7;
+}
+
+.Card:hover {
+  transform: scale(1.03);
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
